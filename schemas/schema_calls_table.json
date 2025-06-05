@@ -1,0 +1,137 @@
+{
+  "table_name": "Calls",
+  "table_id": "tblyyuYfdzGc0CAkO",
+  "total_fields": 20,
+  "extracted_at": "2025-06-04T19:39:24.044244",
+  "fields": [
+    {
+      "id": "fldayjk5NXqBNpBt4",
+      "name": "call_id",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fldcDxCo6fFoXHNIb",
+      "name": "lead_name",
+      "type": "multilineText",
+      "description": null
+    },
+    {
+      "id": "fldiZqaqC3SzGcN09",
+      "name": "lead_phone_number",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fld3wj4KECvr7coqu",
+      "name": "call_type",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fldYOLrwpAoZpdY4B",
+      "name": "last_completed_main_step_index",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fldxL52NSLHXyKSxS",
+      "name": "objection_being_handled",
+      "type": "multilineText",
+      "description": null
+    },
+    {
+      "id": "fldphNzij7EtY5RN4",
+      "name": "ingredients_agreement_status",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fldLgpfqQqThvRlda",
+      "name": "whatsapp_ingredients",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fldQtJDxXBBSVsCNQ",
+      "name": "venue_accepted",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fldAQUIacdD0HAtb2",
+      "name": "time_commitment_accepted",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fldzPU7nrqaOEcopC",
+      "name": "datetime_followup_call",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fldIkhlMSbeUExSGh",
+      "name": "cooking_workshop_datetime",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fld9U1R0yzplPsU1M",
+      "name": "address_confirmation",
+      "type": "multilineText",
+      "description": null
+    },
+    {
+      "id": "fldnQcwySp8xkzxb1",
+      "name": "special_ingredient_requests",
+      "type": "multilineText",
+      "description": null
+    },
+    {
+      "id": "flddbHUdzVjrxgFmh",
+      "name": "actors_confirmed",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fld7WQrtm0EC8knGr",
+      "name": "ingredients_dictated_on_call",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fldssMzTPhRusr85X",
+      "name": "transcript",
+      "type": "multilineText",
+      "description": null
+    },
+    {
+      "id": "fldEW86bq7k4nyjXj",
+      "name": "follow_up_reason",
+      "type": "multilineText",
+      "description": null
+    },
+    {
+      "id": "fldNBTApUUdar3OoN",
+      "name": "address_references",
+      "type": "multilineText",
+      "description": null
+    },
+    {
+      "id": "fldcCuYw0gZ4WeQY4",
+      "name": "call_datetime",
+      "type": "singleLineText",
+      "description": null
+    }
+  ],
+  "field_comparison": {
+    "schema_fields": 20,
+    "record_fields": 18,
+    "empty_fields": [
+      "objection_being_handled",
+      "follow_up_reason"
+    ],
+    "unexpected_fields": []
+  }
+}

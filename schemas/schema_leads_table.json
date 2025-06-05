@@ -1,0 +1,286 @@
+{
+  "table_name": "Leads",
+  "table_id": "tblUZkxzC0MbJ12HG",
+  "total_fields": 35,
+  "extracted_at": "2025-06-04T19:39:23.279165",
+  "fields": [
+    {
+      "id": "fldND8jsB5yRRIzg8",
+      "name": "lead_phone_number",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fldBKyL0CFGGPipNC",
+      "name": "folio",
+      "type": "number",
+      "description": null,
+      "options": {
+        "precision": 0
+      }
+    },
+    {
+      "id": "fldoImbSFw5ScaYTX",
+      "name": "name",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fldmDrCasfQK3HDUw",
+      "name": "alcaldia",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fld4IG7Ajh7b3a2VB",
+      "name": "direccion",
+      "type": "multilineText",
+      "description": null
+    },
+    {
+      "id": "fldoTh2Bri1dttWMX",
+      "name": "referencias",
+      "type": "multilineText",
+      "description": null
+    },
+    {
+      "id": "fldD8GNug9rZKhwdl",
+      "name": "lugar_de_prospeccion",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fldvbJbT8OBbx9CuA",
+      "name": "cuantas_persons",
+      "type": "number",
+      "description": null,
+      "options": {
+        "precision": 0
+      }
+    },
+    {
+      "id": "fldMgmL9vLN5Bhq88",
+      "name": "actores",
+      "type": "multilineText",
+      "description": null
+    },
+    {
+      "id": "fld9JhWoFGhLw3Dfm",
+      "name": "fecha_follow_up",
+      "type": "dateTime",
+      "description": null,
+      "options": {
+        "time_zone": "utc",
+        "date_format": {
+          "format": "YYYY-MM-DD",
+          "name": "iso"
+        },
+        "time_format": {
+          "format": "HH:mm",
+          "name": "24hour"
+        }
+      }
+    },
+    {
+      "id": "fldGaRCEKixQ5MwTW",
+      "name": "num_llamadas",
+      "type": "number",
+      "description": null,
+      "options": {
+        "precision": 2
+      }
+    },
+    {
+      "id": "fldUYK7lcjTrh1ee1",
+      "name": "contactado",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fld8QHmklzHTeuP3y",
+      "name": "last_whatsapp_reachout_datetime",
+      "type": "dateTime",
+      "description": null,
+      "options": {
+        "time_zone": "client",
+        "date_format": {
+          "format": "l",
+          "name": "local"
+        },
+        "time_format": {
+          "format": "h:mma",
+          "name": "12hour"
+        }
+      }
+    },
+    {
+      "id": "fldFppGOXgFNtTf7L",
+      "name": "num_llamadas_incompletas",
+      "type": "number",
+      "description": null,
+      "options": {
+        "precision": 2
+      }
+    },
+    {
+      "id": "fldxjWF7L2nQnIv8g",
+      "name": "llamada_completa",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fldTyek6Y996mbeAx",
+      "name": "fecha_cita",
+      "type": "dateTime",
+      "description": null,
+      "options": {
+        "time_zone": "utc",
+        "date_format": {
+          "format": "YYYY-MM-DD",
+          "name": "iso"
+        },
+        "time_format": {
+          "format": "HH:mm",
+          "name": "24hour"
+        }
+      }
+    },
+    {
+      "id": "fldDsu2QD66gwwEcl",
+      "name": "status",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fldy1FM8sIc4WUpXd",
+      "name": "regalo",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fld5tLcNgYpgO8gl1",
+      "name": "entregado",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fldAzeq9Wc7H4GmxT",
+      "name": "Insumos",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fldKSSFK5rkpv8T9M",
+      "name": "venta",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fldSHbHdouXacuOEJ",
+      "name": "monto",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fldmdJIItGolWXAOI",
+      "name": "comision",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fldxr8bM5on4jAuQt",
+      "name": "Platillo",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fld7fzSaRH90zkR4l",
+      "name": "Prospecto",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fldzjUkAXOM3n5rbi",
+      "name": "Observaciones",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fldwRJShrScwHfUlG",
+      "name": "last_update",
+      "type": "dateTime",
+      "description": null,
+      "options": {
+        "time_zone": "client",
+        "date_format": {
+          "format": "l",
+          "name": "local"
+        },
+        "time_format": {
+          "format": "h:mma",
+          "name": "12hour"
+        }
+      }
+    },
+    {
+      "id": "fldOR7KOxr9xt9kal",
+      "name": "update_source",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fldxBIu6NRCWGVHCc",
+      "name": "conversation_history",
+      "type": "multilineText",
+      "description": null
+    },
+    {
+      "id": "fldkBBYET2lCvzMLN",
+      "name": "openai_thread_id",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fldHpPNtVgoVyZ7Zk",
+      "name": "followup_task_id",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fldV1U0Ivy4A9i869",
+      "name": "followups_today",
+      "type": "number",
+      "description": null,
+      "options": {
+        "precision": 1
+      }
+    },
+    {
+      "id": "fld5ouImkM4mKFe2x",
+      "name": "last_voice_call_datetime",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fld5PuDdcukSixhht",
+      "name": "last_conversation_id",
+      "type": "singleLineText",
+      "description": null
+    },
+    {
+      "id": "fldKZKwAWCHt08Cto",
+      "name": "voice_calls_today",
+      "type": "number",
+      "description": null,
+      "options": {
+        "precision": 1
+      }
+    }
+  ],
+  "field_comparison": {
+    "schema_fields": 35,
+    "record_fields": 35,
+    "empty_fields": [],
+    "unexpected_fields": []
+  }
+}
