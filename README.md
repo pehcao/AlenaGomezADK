@@ -35,6 +35,32 @@ ADKSalesAgent/
 
 ## 🔧 Quick Start
 
+### 🚀 Automated Setup (Recommended)
+
+**Linux/macOS:**
+```bash
+git clone <repository-url>
+cd ADKSalesAgent
+./setup.sh
+```
+
+**Windows:**
+```cmd
+git clone <repository-url>
+cd ADKSalesAgent
+setup.bat
+```
+
+The setup script automatically:
+- ✅ Checks Python 3.8+ installation
+- ✅ Creates and activates virtual environment
+- ✅ Installs all dependencies
+- ✅ Sets up environment configuration
+- ✅ Runs connectivity tests
+- ✅ Provides next steps
+
+### ⚙️ Manual Setup
+
 ### 1. Clone & Setup
 ```bash
 git clone <repository-url>
